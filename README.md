@@ -47,6 +47,17 @@ And to get covid-19 statistics  across world just click the world icon present i
 [Fonts](https://fonts.google.com/) we can use this to convert string to dictionary and dictionary to string. 
 
 ## commands
+(India)
+
+execute these commands in chatbot
+* State Name,infected
+* State Name,new infected
+* State Name,recovered
+* State Name,new recovered
+* State name,died
+
+(World)
+
 execute these commands in chatbot
 * State Name,infected
 * State Name,new infected
