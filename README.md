@@ -2,7 +2,7 @@
 
 # Web Bot(using flask)
 ![Main image](https://theninehertz.com/wp-content/uploads/2018/03/chatbot-for-web-development.jpg)
-## Our Team :-
+## Name :-
  * Shaik Reshma
 
 ## Objective of our Bot
