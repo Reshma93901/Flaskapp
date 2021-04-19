@@ -1,0 +1,82 @@
+<!--page linking to chatbot-->
+<!DOCTYPE html>
+<html>
+<head>
+	<!--world icon-->
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!--google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+	<title></title>
+	<!--internal or embedd cs-->
+	<style type="text/css">
+		body{
+			background-color: #212F3d;
+			margin: 0;
+			padding:0;
+		}
+		#card{
+			height: 83%;
+			width: 35%;
+			position: fixed;
+			left: 35%;
+			top:10%;
+			background-color: white;
+			border-radius: 10px;
+			font-family: 'Grandstander', cursive;
+
+		}
+		#inscard{
+			height: 40%;
+			width:85%;
+			margin-top: -20px;
+			box-shadow: 0px 10px 4px 0px #C1C1C1;
+			margin-left: 30px;
+			border-radius: 10px;
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgmc3uH-A13OwiLDVtsQhCR6fgtpjOUdDWEg&usqp=CAU");
+		}
+		#indiaimg{
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+			opacity: 1;
+			margin-top: 5px;
+			display: inline-block;
+			margin-left: 20px;
+		}
+		#btn{
+			color:white;
+			width: 150px;
+			background-color: #03e9f4;
+			border:1px solid #03e9f4;
+			padding: 7px 0px 7px 0px;
+			border-radius: 50px;
+			margin-left: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div id="card">
+		<div id="inscard">
+			
+		</div>
+		<!--About what this bot gives info-->
+	<p style="margin-left: 20px;">You can choose between :<br><br>
+		India <span style="margin-left: 100px;">or</span> <span style="margin-left: 100px;">World</span></p>
+	<img src="https://github.com/abhishek-548/project/blob/main/india.PNG?raw=true" id="indiaimg">
+	<i class='fas fa-globe' style='font-size:36px;margin-left: 280px;display: block;margin-top: -45px;'></i>
+	<p style="margin-left: 20px;">Ps:(All states or countries should be in upper camel case only)</p>
+	<!--instructions on how to give input-->
+	<p style="margin-left: 20px;">
+		infected == Total number of people who are infected<br>
+		new infected == Total number of people who are newly infected<br>
+		recovered == Total number of people who are recovered<br>
+	    new recovered == Total number of people who are newly recovered<br>
+		died == Total number of people wo are died
+	</p>
+	<button id="btn">
+		<!--Link to chatbot-->
+		<a href={{url_for("chatbotindia")}} style="text-decoration: none;color:white;font-size: 17px;font-family: 'Grandstander', cursive;">Chatbot</a>
+	</button>
+	</div>
+</body>
+</html>
