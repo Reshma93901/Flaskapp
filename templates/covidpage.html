@@ -1,0 +1,214 @@
+<!--html page for covid website-->
+<!DOCTYPE html>
+<html>
+<head>
+	<!--twitter-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+	<!--mask icon-->
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!--handshake icon-->
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!--virus icon-->
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<title></title>
+	<!--mail icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--social media icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--External css link-->
+	<link rel="stylesheet" type="text/css" href="/static/covidpage.css">
+	<!--font icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!--Main heading-->
+	<header id="head">
+		<span style="font-size: 50px;color:white;margin-left: 20px;">&#x2623 CORONA <span style="color:grey;">Virus</span></span>
+		
+		<!--changes theme to dark and white-->
+		<div id="one" onclick="fun()"> 
+      		<div id="two">
+      		</div>
+    	</div>
+		    
+	</header>
+	<!--Its a marquee tag to move from right to left-->
+	<p><marquee><span style="color:#03e9f4;font-size: 20px;">Stay Home Stay Safe</span></marquee></p>
+	<aside id="aside1">
+		<nav id="iconscont">
+			<a href="https://twitter.com/who?lang=en" style="color:black;text-decoration: none;">
+				<img src="https://github.com/abhishek-548/webbot/blob/main/twitter.PNG?raw=true" style="height: 25px;width: 25px;padding-left: 20px;padding-right: 20px;">
+			</a>
+			<br/>
+			<br/>
+			<a href="https://www.facebook.com/WHO/">
+				<img src="https://github.com/abhishek-548/webbot/blob/main/fa.PNG?raw=true" style="height: 25px;width: 25px;padding-left: 20px;padding-right: 20px;">
+			</a>
+			<br/>
+			<br/>
+			<a href="https://www.linkedin.com/company/world-health-organization/">
+				<img src="https://github.com/abhishek-548/webbot/blob/main/linke.PNG?raw=true" style="height: 25px;width: 25px;padding-left: 20px;padding-right: 20px;">
+			</a>
+			<br/>
+			<br/>
+			<a href="mailto:who60@who.int">
+				<img src="https://github.com/abhishek-548/webbot/blob/main/mail.PNG?raw=true" style="height: 25px;width: 25px;padding-left: 20px;padding-right: 20px;">
+			</a>
+		</nav>
+	</aside>
+	<aside id="aside2">
+	<p style="border-radius: 50%;padding: 10px;background-color:black;border: 2px solid #03e9f4;">
+		<a href={{url_for("pagetochatbot")}} style="text-decoration: none;color:white;">
+			<img src="https://github.com/abhishek-548/webbot/blob/main/chat.PNG?raw=true" style="height: 25px;width: 25px;">
+		</a>
+	</p>
+	</aside>
+
+	<article class="art1">
+		
+	</article>
+	<!--Contains info about coronavirus-->
+	<article class="art2">
+		<h1 id="corona">Coronavirus</h1>
+		<div id="about">
+			<h2 style="color:#008DC9;margin-left: 100px;">Overview</h2>
+			<hr style="color:#008DC9;border: 2px solid #008DC9;width:50%;margin-left: 50px;border-radius: 15px;">
+			<p style="margin-left: 150px;font-size: 20px;">
+		
+			Coronavirus disease (COVID-19) is an infectious disease caused by a newly<br> discovered coronavirus.<br>
+
+			Most people infected with the COVID-19 virus will experience mild to moderate<br> respiratory illness and recover without requiring special treatment.  Older<br> people, and those with underlying medical problems like cardiovascular disease,<br> diabetes, chronic respiratory disease, and cancer are more likely to develop<br> serious illness.<br>
+
+			The best way to prevent and slow down transmission is to be well informed about the<br> COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others<br> from infection by washing your hands or using an alcohol based rub frequently and not<br> touching your face.<br> 
+
+
+		</div>
+		<div id="prevention">
+			<h2 style="color:#008DC9;margin-left: 100px;">Prevention</h2>
+			<hr style="color:#008DC9;border: 2px solid #008DC9;width:50%;margin-left: 50px;border-radius: 15px;">
+			<p style="margin-left: 150px;font-size: 20px;">
+				To prevent infection and to slow transmission of COVID-19, do the following:
+				<ul style="margin-left: 130px;font-size: 20px;">
+					<li>Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.</li>
+					<li>Maintain at least 1 metre distance between you and people coughing or sneezing.</li>
+					<li>Avoid touching your face.</li>
+					<li>Cover your mouth and nose when coughing or sneezing.</li>
+					<li>Stay home if you feel unwell.</li>
+					<li>Refrain from smoking and other activities that weaken the lungs.</li>
+					<li>Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</li>
+				</ul>
+			</p>
+		</div>
+		<div id="symptoms">
+			<h2 style="color:#008DC9;margin-left: 100px;">Symptoms</h2>
+			<hr style="color:#008DC9;border: 2px solid #008DC9;width:50%;margin-left: 50px;border-radius: 15px;">
+			<p style="margin-left: 150px;font-size: 20px;">
+		
+			COVID-19 affects different people in different ways. Most infected people<br> will develop mild to moderate illness and recover without hospitalization.<br><br>
+			Most common symptoms:<br>
+			<ul style="margin-left: 130px;font-size: 20px;">
+				<li>fever.</li>
+				<li>dry cough</li>
+				<li>tiredness.</li>
+			</ul>
+			<span style="margin-left: 140px;font-size: 20px;">Less common symptoms:</span><br>
+			<ul style="margin-left: 130px;font-size: 20px;">
+				<li>aches and pains.</li>
+				<li>sore throat.</li>
+				<li>diarrhoea.</li>
+			</ul>
+			</p>
+
+			
+		</div>
+	</article>
+	<article>
+		<!--Card1-->
+		<div>
+			<br><br><br>
+			<i class='fas fa-head-side-mask' style="font-size:28px;color:white;background-color: #DD3648;border: 1px solid #DD3648;border-radius: 50%;padding: 10px 10px 10px 10px;margin-left: 230px;"></i>
+			<div id="r">
+				<br>
+				<p>Mask</p>
+				<p>Use mask every time<br>when you go out and <br>change mask regularly<br></p>
+			</div>
+		</div>
+		<!--card2-->
+		<div style="margin-left: 400px;margin-top: -230px;">
+			<br><br><br>
+			<i class='fas fa-handshake-slash' style="font-size:28px;color:white;background-color: #FDB82F;border: 1px solid #FDB82F;border-radius: 50%;padding: 10px 10px 10px 10px;margin-left: 230px;"></i>
+			<div id="y">
+				<br>
+				<p>Contact</p>
+				<p>Avoid direct contact<br>with others when you <br>go out </p>
+			</div>
+		</div>
+		<!--Card3-->
+
+		<div style="margin-left: 800px;margin-top: -230px;">
+			<br><br><br>
+			<i class='fas fa-viruses' style="font-size:28px;color:white;background-color: #14C4A4;border: 1px solid #14C4A4;border-radius: 50%;padding: 10px 10px 10px 10px;margin-left: 230px;"></i>
+			<div id="g">
+				<br>
+				<p>Virus</p>
+				<p>Due to outbeak of  virus <br>avoid direct contact<br>Stay home Stay safe </p>
+			</div>
+		</div>
+	</article><br><br><br><br>
+	<div>
+		<div id="ig">
+			<br><br><br>
+			<i class="fa fa-500px" style="font-size:36px;color:white;"></i>
+			<p style="font-size: 22px;word-spacing: 1px;">You can know covid-19 statistics across <span style="color:orange;">In</span><span style="color:white;">d</span><span style="color:green;">ia</span><br> and across world</p>
+		</div>
+	</div>
+
+</body>
+<!--java script-->
+<script type="text/javascript">
+    var c=0;
+    //function executes when user clicks it
+    function fun(){
+      if(c==0){
+      var y = document.getElementById("two");//acessing div tag
+      var z= document.getElementById("one");//acessing div tag
+      z.style.backgroundColor="white";//changing background color
+      y.style.backgroundColor="black";//changing background color
+      y.style.marginLeft=50+"px";
+      c+=1;
+      document.body.style.backgroundColor="black";
+      document.body.style.color="white";
+      var x = document.getElementById("corona");
+      x.style.color="white";
+      x.style.backgroundColor="black";
+      x.style.borderColor="black"
+      var line = document.getElementById("iconscont");
+      line.style.borderRightWidth=2+"px";
+      line.style.borderRightStyle="solid";
+      line.style.borderRightColor="#03e9f4";
+      line.style.borderLeftColor="black";
+      }
+      else{
+        var y = document.getElementById("two");//acessing div tag
+        var z= document.getElementById("one");//acessing div tag
+        z.style.backgroundColor="black"
+        y.style.backgroundColor="white"
+        y.style.marginLeft=15+"px";
+        c-=1;
+        document.body.style.backgroundColor="white";
+        document.body.style.color="black";
+        var x = document.getElementById("corona");
+        x.style.color="black";
+        x.style.backgroundColor="white";
+        x.style.borderColor="white";
+        var line = document.getElementById("iconscont");
+      	line.style.borderLeftWidth=2+"px";
+      	line.style.borderLeftStyle="solid";
+      	line.style.borderLeftColor="#03e9f4";
+      	line.style.borderRightColor="white";
+      }
+    }
+</script>
+</html>
