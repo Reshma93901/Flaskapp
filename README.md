@@ -3,7 +3,7 @@
 # Web Bot(using flask)
 ![Main image](https://theninehertz.com/wp-content/uploads/2018/03/chatbot-for-web-development.jpg)
 ## Name :-
- * Shaik Reshma
+ * Shaik Reshma(19kn1a05g1)
 
 ## Objective of our Bot
  * This is a Web ChatBot for covid website which helps in finding covid-19 statistics across India and in world.
